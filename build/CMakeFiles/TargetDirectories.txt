@@ -1,0 +1,3 @@
+/home/main/User/Program/DevelopingProjects/stc89prac/build/CMakeFiles/stc89prac.dir
+/home/main/User/Program/DevelopingProjects/stc89prac/build/CMakeFiles/edit_cache.dir
+/home/main/User/Program/DevelopingProjects/stc89prac/build/CMakeFiles/rebuild_cache.dir

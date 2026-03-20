@@ -1,0 +1,1 @@
+sdcc -mmcs51 --model-small -Wl,--dependency-file=CMakeFiles/stc89prac.dir/link.d CMakeFiles/stc89prac.dir/main.c.o -o stc89prac.ihx

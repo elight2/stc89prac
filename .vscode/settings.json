@@ -1,0 +1,9 @@
+{
+    "cmake.configureArgs": [
+        "-DCMAKE_C_COMPILER=sdcc",
+        "-DCMAKE_SYSTEM_NAME=Generic"
+    ],
+    "clangd.arguments": [
+        "-D__sfr=unsigned char"
+    ]
+}

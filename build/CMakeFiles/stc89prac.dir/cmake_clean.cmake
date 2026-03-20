@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/stc89prac.dir/link.d"
-  "CMakeFiles/stc89prac.dir/main.c.o"
-  "CMakeFiles/stc89prac.dir/main.c.o.d"
+  "CMakeFiles/stc89prac.dir/main.c.rel"
   "stc89prac.ihx"
   "stc89prac.pdb"
 )

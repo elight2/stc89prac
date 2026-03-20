@@ -1,20 +1,12 @@
 cmake_minimum_required(VERSION 3.12)
 set(CMAKE_PROJECT_NAME "stc89prac")
-
-set(CMAKE_SYSTEM_NAME 8051)
-set(CMAKE_C_COMPILER sdcc)
-set(CMAKE_AR sdar)
-set(CMAKE_NM sdnm)
-set(CMAKE_OBJCOPY sdobjcopy)
-set(CMAKE_ASM_COMPILER sdas8051)
-set(CMAKE_RANLIB sdranlib)
-set(CMAKE_C_FLAGS_INIT "")
-set(CMAKE_ASM_FLAGS_INIT "")
-set(CMAKE_EXECUTABLE_SUFFIX ".ihx")
-set(CMAKE_C_OUTPUT_EXTENSION ".rel")
-set(CMAKE_C_FLAGS_DEBUG "")
-set(CMAKE_C_FLAGS_RELEASE "")
-set(CMAKE_C_FLAGS "-mmcs51 --model-small")
-
+project(${CMAKE_PROJECT_NAME} C)
+set(CMAKE_EXPORT_COMPILE_COMMANDS on)
+add_compile_options("-mmcs51")
+include_directories("/usr/share/sdcc/include/mcs51")
 
 add_executable(stc89prac main.c)
+
+if(EXISTS "${CMAKE_BINARY_DIR}/compile_commands.json")
+    file(COPY "${CMAKE_BINARY_DIR}/compile_commands.json" DESTINATION "${PROJECT_SOURCE_DIR}")
+endif()

@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/main/User/Program/DevelopingProjects/stc89prac/build",
-  "command": "sdcc   -mmcs51 --model-small -o CMakeFiles/stc89prac.dir/main.c.o -c /home/main/User/Program/DevelopingProjects/stc89prac/main.c",
+  "command": "/sbin/sdcc  -I/usr/share/sdcc/include/mcs51 -mmcs51 -o CMakeFiles/stc89prac.dir/main.c.rel -c /home/main/User/Program/DevelopingProjects/stc89prac/main.c",
   "file": "/home/main/User/Program/DevelopingProjects/stc89prac/main.c",
-  "output": "CMakeFiles/stc89prac.dir/main.c.o"
+  "output": "CMakeFiles/stc89prac.dir/main.c.rel"
 }
 ]

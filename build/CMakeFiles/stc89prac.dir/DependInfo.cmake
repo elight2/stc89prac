@@ -4,12 +4,21 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/home/main/User/Program/DevelopingProjects/stc89prac/main.c" "/home/main/User/Program/DevelopingProjects/stc89prac/build/CMakeFiles/stc89prac.dir/main.c.rel"
+  )
+set(CMAKE_C_COMPILER_ID "SDCC")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "/usr/share/sdcc/include/mcs51"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/main/User/Program/DevelopingProjects/stc89prac/main.c" "CMakeFiles/stc89prac.dir/main.c.o" "gcc" "CMakeFiles/stc89prac.dir/main.c.o.d"
-  "" "stc89prac.ihx" "gcc" "CMakeFiles/stc89prac.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
